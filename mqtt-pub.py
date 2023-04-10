@@ -1,4 +1,5 @@
 import paho.mqtt.client as mqtt
+#pip3 install paho-mqtt
 
 payload="Hello:
 topic="IOT/test"
