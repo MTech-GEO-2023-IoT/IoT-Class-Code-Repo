@@ -13,9 +13,9 @@ client_uniq = "pubclient_123"
 mqttclient = paho.Client(client_uniq, True) 
 
 def test(client, userdata, message):
-  print("client:"+ client)
+  print("client:"+ str(client))
   print("userdata:"+ userdata)
-  print("message:"+ message)
+  print("message:"+ message.decode())
 
 def _on_message(client, userdata, msg):
 # 	print("Received: Topic: %s Body: %s", msg.topic, msg.payload)
