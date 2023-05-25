@@ -8,3 +8,17 @@ Install PHPMyAdmin
 sudo apt install phpmyadmin
 (make sure to select apache2 (use space bar to select))
 
+open phpmyadmin in browser
+http://externalIP/phpmyadmin
+
+[You may get error - screen with text]
+Follow this step if you et error
+sudo apt install libapache2-mod-php
+sudo service apache2 restart
+
+Create new mysql user
+sudo su
+mysql -u root
+
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
