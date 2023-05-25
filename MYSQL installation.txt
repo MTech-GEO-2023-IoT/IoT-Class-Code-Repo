@@ -1,0 +1,10 @@
+First install Apache2
+sudo apt install apache2
+
+Install mysql server
+sudo apt install mariadb-server
+
+Install PHPMyAdmin
+sudo apt install phpmyadmin
+(make sure to select apache2 (use space bar to select))
+
