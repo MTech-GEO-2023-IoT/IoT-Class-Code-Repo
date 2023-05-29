@@ -15,7 +15,7 @@ from flaskext.mysql import MySQL
 app=Flask(__name__)
 
 #assign Flask-Mysql Module
-sql=MySQL()
+mysql = MySQL()
 
 #Configure MySQL
 app.config['MYSQL_DATABASE_USER'] = 'your-mysql-username'
